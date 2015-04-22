@@ -55,8 +55,8 @@ public class TimerProgramatico {
 		ScheduleExpression expression = new ScheduleExpression();
 		expression
 			.second("*")
-			.minute("35")
-			.hour("23");
+			.minute("02")
+			.hour("22");
 		
 		timerService.createCalendarTimer(expression, timerConfig);
 	}
