@@ -7,10 +7,11 @@ https://docs.oracle.com/javaee/7/tutorial/ejb-basicexamples004.htm#BNBOY
 #API JAVAEE7
 http://docs.oracle.com/javaee/7/api/
 
-Antes de executar qualquer exemplo é necessario realizar o deploy da 
+#Exemplos e como executa-los:
+
+OBS: Antes de executar qualquer exemplo é necessario realizar o deploy da 
 aplicação em servidor de aplicação que implemente a especificação javaEE 7.
 
-#Exemplos e como executa-los:
 1 - TimerDeclarativo:
 <br />
 Para executar descomente as linhas comentadas.
