@@ -8,17 +8,15 @@ Antes de executar qualquer exemplo é necessario realizar o deploy da
 aplicação em servidor de aplicação que implemente a especificação javaEE 7.
 
 #Exemplos e como executa-los:
-|-----------------------------------
-| 1 - TimerDeclarativo:
-|-----------------------------------
+1 - TimerDeclarativo:
+<br />
 Para executar descomente as linhas comentadas.
 É o teste mais simples e tem por finalidade exemplicar o uso do timer de forma declarativa.
 Basta informar dentro da anotação o padrão de execução que desejar.
 Neste exemplo o timer irá executar a cada segundo exibindo no console o horario atual.
 
-|-----------------------------------
-| 2 - TimerProgramatico:
-|-----------------------------------
+2 - TimerProgramatico:
+<br />
 Este exemplo tem por finalidade exemplicar o uso do timer de forma programatica, conhecidos como <b>Programmatic Timers</b>.
 
 O timer programatico deve ser criado a partir de uma instancia da classe timer service,  
