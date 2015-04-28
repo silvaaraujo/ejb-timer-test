@@ -1,8 +1,11 @@
 # ejb-timer-test
 Projeto simples para teste de uso da API EJB TIMER SERVICE
 
-#Documentação oficial
+#Documentação e/ou tutorial oficial:
 https://docs.oracle.com/javaee/7/tutorial/ejb-basicexamples004.htm#BNBOY
+
+#API JAVAEE7
+http://docs.oracle.com/javaee/7/api/
 
 Antes de executar qualquer exemplo é necessario realizar o deploy da 
 aplicação em servidor de aplicação que implemente a especificação javaEE 7.
