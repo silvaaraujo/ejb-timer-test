@@ -1,37 +1,35 @@
 # ejb-timer-test
-Projeto simples para teste de uso da API EJB TIMER SERVICE
+Projeto para testes de uso da API EJB TIMER SERVICE
 
 #Documentação e/ou tutorial oficial:
 https://docs.oracle.com/javaee/7/tutorial/ejb-basicexamples004.htm#BNBOY
 
-#API JAVAEE7
+#API JavaEE7
 http://docs.oracle.com/javaee/7/api/
 
 #Exemplos e como executa-los:
 
-OBS: Antes de executar qualquer exemplo é necessario realizar o deploy da 
-aplicação em servidor de aplicação que implemente a especificação javaEE 7.
+OBS: Antes de executar qualquer exemplo é necessário realizar o deploy da aplicação em servidor de aplicação que implemente a especificação javaEE 7.
+Os testes foram realizados utilizando o servidor de aplicação glassfish 4.1 que pode ser baixado gratuitamente em:
+https://glassfish.java.net/download.html
 
 1 - TimerDeclarativo:
 <br />
-Para executar descomente as linhas comentadas.
 É o teste mais simples e tem por finalidade exemplicar o uso do timer de forma declarativa.
 Basta informar dentro da anotação o padrão de execução que desejar.
-Neste exemplo o timer irá executar a cada segundo exibindo no console o horario atual.
+Neste exemplo o timer irá executar a cada segundo exibindo no console o horário atual.
 
 2 - TimerProgramatico:
 <br />
-Este exemplo tem por finalidade exemplicar o uso do timer de forma programatica, conhecidos como <b>Programmatic Timers</b>.
+Este exemplo tem por finalidade exemplicar o uso do timer de forma programática, conhecido como <b>Programmatic Timers</b>.
 
-O timer programatico deve ser criado a partir de uma instancia da classe timer service,  
+O timer programático deve ser criado a partir de uma instância da classe timer service,  
 que é um recurso gerenciado pelo container e por isso podemos injetá-lo. 
-Atraves do timer service podemos criar execucoes unicas, em intervalos de tempo ou baseadas no tempo data/hora.
+Através do timer service podemos criar execuções unicas, em intervalos de tempo ou baseadas no tempo data/hora.
 
-Com uma instancia da classe <b>TimerConfig</b> e possivel definir algumas informacoes referentes ao agendamento 
-como pode ser visto abaixo, como por exemplo se esse timer sera persistente ou nao.
+Com uma instância da classe <b>TimerConfig</b> e possível definir algumas informações referentes ao agendamento,
+como por exemplo se esse timer será persistente ou não.
 
-O horario de execucao pode ser definido atraves de uma instancia da classe <b>ScheduleExpression</b>.
+O horário de execução pode ser definido através de uma instância da classe <b>ScheduleExpression</b>.
 
-O agendamento sera disparado quando a horario pre-definido for atingido e o 
-metodo que possuir a anotacao <b>@Timeout</b> será executado.
-
+O agendamento será disparado quando o horário pré-definido for atingido e o método que possuir a anotacao <b>@Timeout</b> será executado.
