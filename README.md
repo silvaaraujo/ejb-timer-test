@@ -33,3 +33,10 @@ como por exemplo se esse timer será persistente ou não.
 O horário de execução pode ser definido através de uma instância da classe <b>ScheduleExpression</b>.
 
 O agendamento será disparado quando o horário pré-definido for atingido e o método que possuir a anotacao <b>@Timeout</b> será executado.
+
+3 - ManipulandoTimers
+<br />
+Este exemplo tem por finalidade exemplicar a <b>manipulação de Timers</b> criados, o exemplo busca um timer criado anteriormente, 
+loga o horário da próxima execução e após isto, cancela o timer.
+
+

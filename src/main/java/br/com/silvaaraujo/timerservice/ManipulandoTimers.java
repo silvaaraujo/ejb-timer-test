@@ -28,7 +28,7 @@ public class ManipulandoTimers {
 	private TimerService timerService;
 	
 	@PostConstruct
-	public void programaticHello() {
+	public void createAndCancelTimer() {
 		
 		TimerConfig timerConfig = new TimerConfig();
 		timerConfig.setInfo("timerTask2");
